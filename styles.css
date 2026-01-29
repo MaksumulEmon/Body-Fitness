@@ -274,10 +274,10 @@ nav img {
     margin-top: 100px;
 }
 
-.left-banner-run button{
+.left-banner-run button {
     border-radius: 42px;
     background: rgba(230, 83, 60, 1);
-    padding: 16px 40px ;
+    padding: 16px 40px;
     max-width: 225px;
     color: #FFFFFF;
     font-size: 1.125rem;
@@ -302,9 +302,7 @@ nav img {
 
 }
 
-.btn-run{
-    
-}
+.btn-run {}
 
 /* Responsie */
 @media screen and (max-width:576px) {
@@ -397,4 +395,20 @@ nav img {
         margin-top: 30px;
     }
 
+    /* Run Section */
+
+    .run-section {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+        margin-top: 50px;
+        gap: 50px;
+    }
+
+    .left-banner-run h2 {
+        font-size: 2rem;
+    }
+
+     .run-section img {
+        max-width: 100%;
+     }
 }
