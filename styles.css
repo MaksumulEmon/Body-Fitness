@@ -357,6 +357,43 @@ nav img {
     mix-blend-mode: multiply;
 }
 
+
+.meet-team h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.meet-team p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.team-member {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(6, 98, 14, 0.082);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.team-member img {
+    width: 100%;
+    height: 250px;
+
+}
+
 /* Responsie */
 @media screen and (max-width:576px) {
 
@@ -474,7 +511,7 @@ nav img {
 
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
-       
+
         /* grid-template-rows: repeat(2, 200px); */
         /* width: 400px; */
     }
@@ -488,11 +525,26 @@ nav img {
         grid-column: auto;
     }
 
-    .box-3, .box-6{
+    .box-3,
+    .box-6 {
         display: none;
     }
 
-     .traning-section{
+    .traning-section {
         margin: 30px;
-     }
+    }
+
+    /* Team Member */
+
+    .meet-team{
+        margin: 20px;
+    }
+    .team-member {
+   
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+   
+    padding: 20px;
+    margin-top: 50px;
+}
 }
