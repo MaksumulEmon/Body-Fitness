@@ -413,6 +413,12 @@ nav img {
 }
 
 
+
+.footer-contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
 /* Responsie */
 @media screen and (max-width:576px) {
 
